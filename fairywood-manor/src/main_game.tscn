@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bnfmjeavmgnw"]
+
+[node name="MainGame" type="Node"]
+
+[node name="GameSystems" type="Node" parent="."]
+
+[node name="World" type="Node3D" parent="."]
+
+[node name="LevelLayer" type="Node3D" parent="World"]
+
+[node name="Entities" type="Node3D" parent="World"]
+
+[node name="HUD CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUDRoot" type="Control" parent="HUD CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Pause CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PauseRoot" type="Control" parent="Pause CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
