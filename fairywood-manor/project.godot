@@ -1,0 +1,18 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Fairywood Manor"
+config/description="A short game with a basic gameplay loop starring my friends as a cast of retired demon hunters called back into action. Mostly just a space to put my art and play with game development"
+config/version="0.1"
+config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0.238391, 0.0430545, 0.214406, 1)
+config/icon="res://icon.svg"
